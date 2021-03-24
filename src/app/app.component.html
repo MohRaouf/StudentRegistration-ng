@@ -1,0 +1,5 @@
+<h2 class="box">Students Registration</h2>
+<div>
+    <app-register class="side-view" (newRegistration)="registerStudent($event)"></app-register>
+    <app-records class="side-view" [students]="students"></app-records>
+</div>

@@ -1,0 +1,75 @@
+/* Bordered form */
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+label {
+    font-size: large;
+    color: #58be5c;
+}
+
+
+/* Full-width inputs */
+
+input {
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px gray;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.877);
+    font-size: 15px;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #3b803d;
+    /* box-shadow: 2px 2px 5px gray; */
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: green;
+    transform: scale(0.98);
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+    border: 3px solid #106e2f;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px 30px 20px 30px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.invalid {
+    font-size: smaller;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px 5px 10px;
+}

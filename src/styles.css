@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(4, 32, 51);
+}
+
+h2 {
+    color: rgb(13, 179, 90);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}

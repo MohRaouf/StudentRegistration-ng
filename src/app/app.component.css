@@ -1,0 +1,22 @@
+.side-view {
+    width: 50%;
+    float: left;
+}
+
+div {
+    display: inline;
+}
+
+app-register,
+app-records {
+    margin: 0px auto;
+}
+
+.box {
+    text-align: center;
+    border: 2px solid green;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
